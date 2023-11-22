@@ -3,7 +3,6 @@ import requests
 import json
 from urls import login_url
 
-
 def login_user(login='', password=''):
 
     payload = {
